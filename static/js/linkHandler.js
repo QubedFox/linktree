@@ -1,5 +1,5 @@
 const LINKS = [
-    ["Github", "https://github.com/QubedFox"],
+    ["GitHub", "https://github.com/QubedFox"],
     ["Money Calculator", "https://qubedfox.github.io/money_calculator"]
 ]
 
