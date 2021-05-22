@@ -20,7 +20,6 @@ body {
     background: linear-gradient(#5A995B, #9fe6a0);
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .header{
@@ -65,4 +64,10 @@ body {
 .links {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.navbar-brand {
+    font-family: karlaregular;
+    font-style: normal;
+    font-weight: bold;
 }
