@@ -5,6 +5,11 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 html {
     height: 100%;
 }
@@ -19,27 +24,27 @@ body {
 }
 
 .header{
-    margin-bottom: 35px;
+    margin-bottom: 34px;
+}
+
+.image-container {
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 19px;
 }
 
 .profile {
-    width: 100px;
+    width: 96px;
     height: inherit;
     border-radius: 50%;
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 1%;
 }
 
 .handle{
     color: white;
     font-family: karlaregular;
     font-style: normal;
-    font-size: 20px;
-    font-weight:600;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -47,15 +52,17 @@ body {
     font-family: karlaregular;
     font-style: normal;
     font-weight: bold;
+    font-size: 16px;
 
     border-radius: 0;
     border-width: 2px;
-    margin-bottom: 10px;
-    max-width: 43.5rem;
-
+    margin-bottom: 16px;
+    max-width: 42.5rem;
+    height: 60px;
     text-align: center;
 }
 
 .links {
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
