@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'karlaregular';
+    src: url('karla-variablefont_wght-webfont.woff2') format('woff2'),
+         url('karla-variablefont_wght-webfont.woff') format('woff');
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(#5A995B, #9fe6a0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.header{
+    margin-bottom: 35px;
+}
+
+.profile {
+    width: 100px;
+    height: inherit;
+    border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.handle{
+    color: white;
+    font-family: karlaregular;
+    font-style: normal;
+    font-size: 20px;
+    font-weight:600;
+    text-align: center;
+}
+
+.btn {
+    font-family: karlaregular;
+    font-style: normal;
+    font-weight: bold;
+
+    border-radius: 0;
+    border-width: 2px;
+    margin-bottom: 10px;
+    max-width: 43.5rem;
+
+    text-align: center;
+}
