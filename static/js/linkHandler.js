@@ -1,3 +1,9 @@
+//
+//  Code by Nicholas Taplin
+//  GitHub: https://github.com/QubedFox
+//
+
+
 const LINKS = [
     ["GitHub", "https://github.com/QubedFox"],
     ["Money Calculator", "https://qubedfox.github.io/money_calculator"]

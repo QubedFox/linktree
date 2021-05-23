@@ -1,3 +1,9 @@
+//
+//  Code by Nicholas Taplin
+//  GitHub: https://github.com/QubedFox
+//
+
+
 function updateLinks(links){
     let html = ""
 
