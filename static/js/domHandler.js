@@ -9,7 +9,7 @@ function updateLinks(links){
 
     for (i = 0; i < links.length; i++){
         html += '<div class="row justify-content-center">'
-        html += '<button type="button" class="btn btn-outline-light btn-lg"><a href="' + links[i][1] + '">' + links[i][0] + '</a></button>'
+        html += '<a href="' + links[i][1] + '" class="btn btn-lg btn-outline-light" role="button">' + links[i][0] + '</a>'
         html += '</div>'
     }
 
