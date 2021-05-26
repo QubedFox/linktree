@@ -15,6 +15,5 @@ function getLinks() {
     for (i = 0; i < LINKS.length; i++){
         output[i] = [LINKS[i][0], LINKS[i][1]]
     }
-    console.log(output)
     return output
 }
