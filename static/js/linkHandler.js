@@ -6,7 +6,8 @@
 
 const LINKS = [
     ["GitHub", "https://github.com/QubedFox"],
-    ["Money Calculator", "https://qubedfox.github.io/money_calculator"]
+    ["Money Calculator", "https://qubedfox.github.io/money_calculator"],
+    ["Ciphers - WIP", "https://qubedfox.github.io/supreme-train/"]
 ]
 
 function getLinks() {
