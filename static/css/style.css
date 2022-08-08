@@ -30,6 +30,14 @@ body {
     background-attachment: fixed;
 }
 
+.section-title {
+    font-family: karlaregular;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+}
+
 .header{
     margin-bottom: 34px;
 }
@@ -58,8 +66,8 @@ body {
 .btn {
     font-family: karlaregular;
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
 
     border-radius: 30px;
     border-width: 2px;
@@ -73,6 +81,7 @@ body {
 .links {
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .navbar-brand {
