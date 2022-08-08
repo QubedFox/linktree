@@ -8,9 +8,16 @@ function updateLinks(links){
     let html = ""
 
     for (i = 0; i < links.length; i++){
-        html += '<div class="row justify-content-center">'
-        html += '<a href="' + links[i][1] + '" class="btn btn-lg btn-outline-light" role="button">' + links[i][0] + '</a>'
-        html += '</div>'
+        if (links[i][0] == "header") {
+            html += '<div class="row text-center">'
+            html += '<p class="section-title">' + links[i][1] + '</p>'
+            html += '</div>'
+        }
+        else {
+            html += '<div class="row justify-content-center">'
+            html += '<a href="' + links[i][1] + '" class="btn btn-lg btn-outline-light" role="button" target="_blank" rel="noopener noreferrer">' + links[i][0] + '</a>'
+            html += '</div>'
+        }
     }
 
     $('.links').html(html)
